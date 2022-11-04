@@ -1,0 +1,170 @@
+body,
+html,
+textarea,
+p,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* General */
+.logotype {
+  color: #171717;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.subtitle {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.green-font {
+  color: #4fae51;
+}
+
+.button {
+  display: block;
+  background-color: #182c6e;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.6);
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.phone__number {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.sacials {
+  text-align: center;
+}
+
+.socials-group-item {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+.socials-link {
+  color: black;
+  font-size: 40px;
+}
+
+.email__address {
+  text-align: center;
+  font-size: 26px;
+  color: #ff8562;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Menu */
+.menu {
+  height: 100px;
+}
+
+.menu-link {
+  color: #317d3f;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Big picture */
+.home-dragon {
+  height: calc(100vh - 100px);
+  max-height: 850px;
+  background-color: #eef4e8;
+}
+
+.home-dragon-title {
+  font-size: 150px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  width: 380px;
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 50px;
+  text-align: center;
+  border: 1px solid;
+  color: white;
+  background-color: #242240;
+}
+
+.card-term {
+  text-transform: uppercase;
+}
+
+.self {
+  font-size: 14px;
+  width: 130px;
+}
+
+.card-title {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 36px;
+  color: rgb(65, 201, 96);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-price {
+  color: rgb(138, 133, 133);
+}
+
+.btn {
+  border: 1px solid #182c6e;
+
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 45px;
+  border-radius: 50px;
+  background-color: #182c6e;
+  margin: 29px 0;
+}
+
+.card-discount {
+  margin: 40px 0;
+}
+
+.card-terms {
+  font-weight: bold;
+}
+
+.card-price {
+  text-decoration: line-through;
+}
+
+.card-pricess {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+  height: 65px;
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+}
