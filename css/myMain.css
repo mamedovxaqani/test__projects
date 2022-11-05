@@ -105,8 +105,6 @@ body {
   margin-top: 10px;
 }
 
-
-
 .form-control {
   width: 100%;
   border-radius: 15px;
@@ -121,6 +119,26 @@ body {
   width: 550px;
   max-width: 100%;
   padding: 10px;
+}
+
+.question__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question__container {
+  width: 600px;
+  max-width: 100%;
+}
+
+.question__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.question__answer {
+  display: none;
 }
 
 .col-auto {
@@ -145,12 +163,50 @@ body {
   transition: 0.2s linear;
 }
 
+.panel__down {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.panel__down-icon {
+  position: absolute;
+  bottom: 0;
+  color: #00b33c;
+  font-size: 30px;
+  animation: panel__icon 2s infinite linear;
+}
+
+.question__sec-title {
+  text-align: center;
+  color: green;
+  font-weight: 700;
+  font-size: 62px;
+  font-family: "Ubuntu", sans-serif;
+}
+
 .form-button:hover {
   background-color: #47a8cf;
 }
 
+.panel-top {
+  padding: 25px 0;
+}
+
 .panel {
-  height: calc(100vh - 100px);
+  padding: 10px 0;
+  height: 100vh;
   max-height: 850px;
   background-color: #eef4e8;
+}
+
+/* animation */
+
+@keyframes panel__icon {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 10px);
+  }
 }

@@ -10,6 +10,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -67,17 +73,26 @@
     <main>
       <section class="panel">
         <div class="container">
-          <h3 class="panel__title">
-            E.dragon
-            <span class="panel__title-school">school</span>
-          </h3>
-          <p class="panel__subtitle">Онлайн Школа Англійської</p>
-          <p class="panel__descr">
-            Вчи Англійську вже сьогодні щоб завтра розповісти про перемогу
-            всьому світу
-          </p>
-          <div class="panel__button">
-            <a href="" class="panel__btn">Залишит заявку</a>
+          <div class="panel-top">
+            <h3 class="panel__title">
+              E.dragon
+              <span class="panel__title-school">school</span>
+            </h3>
+            <p class="panel__subtitle">Онлайн Школа Англійської</p>
+            <p class="panel__descr">
+              Вчи Англійську вже сьогодні щоб завтра розповісти про перемогу
+              всьому світу
+            </p>
+            <div class="panel__button">
+              <a href="" class="panel__btn">Залишит заявку</a>
+            </div>
+          </div>
+          <div class="panel-bottom">
+            <div class="panel__down">
+              <div class="panel__down-icon">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -353,6 +368,100 @@
           </div>
         </div>
       </section>
+      <section class="questions">
+        <div class="container question__container">
+          <h2 class="question__sec-title">Q&A</h2>
+          <div class="row row-cols-sm-1 justify-content-center">
+            <div class="col-5">
+              <div class="questions__group">
+                <div class="question__main">
+                  <p class="question__title">Як записатися на урок E.Dragon</p>
+                  <p class="question__icon"><i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="question__answer">
+                  <p class="q__answer">
+                    Залишити заявку на пробний урок. <br />
+                    Менеджер розповість тобі про нашу онлайн-школу та допоможе
+                    обрати програму згідно вашим інтересам та цілям.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="questions__group">
+                <div class="question__main">
+                  <p class="question__title">як відбувається оплата?</p>
+                  <p class="question__icon"><i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="question__answer">
+                  <p class="q__answer">
+                    Оплата здійснюється за Курс після першого безкоштовного
+                    заняття
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="questions__group">
+                <div class="question__main">
+                  <p class="question__title">Якщо я не зможу прийти на урок,</p>
+                  <p class="question__icon"><i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="question__answer">
+                  <p class="q__answer">
+                    Оплата здійснюється за Курс після першого безкоштовного
+                    заняття
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="questions__group">
+                <div class="question__main">
+                  <p class="question__title">
+                    Скільки Триває групове онлайн занняття
+                  </p>
+                  <p class="question__icon"><i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="question__answer">
+                  <p class="q__answer">
+                    Оплата здійснюється за Курс після першого безкоштовного
+                    заняття
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="questions__group">
+                <div class="question__main">
+                  <p class="question__title">як відбувається оплата?</p>
+                  <p class="question__icon"><i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="question__answer">
+                  <p class="q__answer">
+                    Оплата здійснюється за Курс після першого безкоштовного
+                    заняття
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="questions__group">
+                <div class="question__main">
+                  <p class="question__title">як відбувається оплата?</p>
+                  <p class="question__icon"><i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="question__answer">
+                  <p class="q__answer">
+                    Оплата здійснюється за Курс після першого безкоштовного
+                    заняття
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="form__section">
         <div class="container">
           <h2 class="form__title">Запис на пробний урок</h2>
@@ -430,5 +539,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
