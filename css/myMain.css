@@ -134,9 +134,15 @@ body {
 }
 
 .form__section {
-  background-color: #e0e0d2;
+  background-color: #d9ffcc;
+  background-image: url("../img/dragon.jpg");
+  background-blend-mode: multiply;
+  background-position: right;
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-attachment: local;
   padding: 20px 0;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .form-control {
@@ -161,7 +167,7 @@ body {
 }
 
 .question__container {
-  width: 600px;
+  width: 650px;
   max-width: 100%;
 }
 
@@ -206,9 +212,12 @@ body {
 .panel__down-icon {
   position: absolute;
   bottom: 0;
-  color: #00b33c;
   font-size: 30px;
   animation: panel__icon 2s infinite linear;
+}
+
+.panel__down-icon a {
+  color: #00b33c;
 }
 
 .question__sec-title {
@@ -228,10 +237,16 @@ body {
 }
 
 .panel {
+  width: 100%;
   padding: 10px 0;
   height: 100vh;
   max-height: 850px;
-  background-color: #eef4e8;
+  background-color: #ebebe0;
+  background-image: url("../img/dragon.jpg");
+  background-blend-mode: multiply;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .prices__content-title {
@@ -253,8 +268,30 @@ body {
   margin-top: 30px;
 }
 
+.review__title-block {
+  text-align: center;
+}
+
+.review__title {
+  color: #233982;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 62px;
+  margin-bottom: 0;
+}
+
+.review__subtitle {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
 .green {
   color: green;
+}
+
+.card-individ {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
 }
 
 .author__information {
